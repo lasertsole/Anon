@@ -1,9 +1,7 @@
 <template>
-    <div class="layout">
-        <main class="relative">
-            <slot></slot>
-        </main>
-    </div>
+    <main class="layout">
+        <slot></slot>
+    </main>
 </template>
 
 <script setup lang="ts">
