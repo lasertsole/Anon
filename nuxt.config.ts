@@ -26,12 +26,12 @@ export default defineNuxtConfig({
 
   // 导入第三方模块
   modules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
   ],
 
   tailwindcss: {
-    cssPath: ['@/tailwind.scss', { injectPosition: "first" }],
-    configPath: '@/tailwind.config',
+    cssPath: ['~/assets/css/tailwind.scss', { injectPosition: "first" }],
+    configPath: '~/assets/ts/tailwind.config',
     exposeConfig: {
       level: 2
     },
@@ -40,5 +40,5 @@ export default defineNuxtConfig({
   },
 
   ignore: ['**/src-tauri/**'],
-  css:['@/main.scss'],
+  css:['~/assets/css/main.css', '~/assets/css/main.scss'],
 })

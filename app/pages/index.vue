@@ -1,10 +1,13 @@
 <template>
     <div class="root">
-        <LazySvgStaffPaper></LazySvgStaffPaper>
+        <LazySvgStaffPaper/>
+        <DomDrawer/>
     </div>
 </template>
 
 <script lang="ts" setup>
+import { DomDrawer } from '#components';
+
 
 </script>
 
