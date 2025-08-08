@@ -84,6 +84,18 @@
 	@include fixedHeight(100%);
 }
 
+/* 固定高度 */
+@mixin fixedWidthFullHeight($size) {
+	@include fixedWidth($size);
+	@include fixedHeight(100%);
+}
+
+/* 固定高度 */
+@mixin fullWidthFixedHeight($size) {
+	@include fixedWidth(100%);
+	@include fixedHeight($size);
+}
+
 /* 限定最小长方形 */
 @mixin minRetangle($widthSize, $heightSize) {
 	@include minWidth($widthSize);
