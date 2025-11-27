@@ -5,7 +5,7 @@
     cy="89" 
     rx="18" 
     ry="8" 
-    style="fill:white;"
+    fill="transparent"
 		transform="rotate(-10 34 89)"
    	stroke="black" 
     stroke-width="4"
