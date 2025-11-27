@@ -2,7 +2,11 @@
     <transition>
         <dialog ref="drawerDom" @click.stop="drawerButtonHideFunc($event)">
             <div>
-                123321
+                <template v-for="(item, index) in 9">
+                    <div class="item">
+                        <span>{{item}}</span>
+                    </div>
+                </template>
             </div>
         </dialog>
     </transition>
@@ -65,8 +69,7 @@
         top: 0%;
         left: 0%;
         @include common.fixedWidthFullHeight(50%);
-        border: 1px solid black;
-        border-left: none;
+        border: none !important;
         border-radius: 0 1rem 1rem 0;
         opacity: 0;
         pointer-events: none;
@@ -74,6 +77,15 @@
 
         >div{
             @include common.fullInParent();
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+            grid-template-rows: repeat(auto-fill, 3rem);
+            grid-auto-flow: row dense;
+            gap: 0.5rem;
+
+            >.item{
+
+            }
         }
 
         &[open] {
