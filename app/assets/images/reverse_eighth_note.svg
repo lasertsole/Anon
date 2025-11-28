@@ -9,12 +9,12 @@
       stroke-width: 6.5;"
   />
   <ellipse 
-    cx="66" 
+    cx="66.5" 
     cy="15" 
     rx="20" 
     ry="10" 
     style="fill:black;"
-		transform="rotate(10 66 15)"
+		transform="rotate(10 66.5 15)"
    />
   <path 
     d="M 50 100 Q 60 85 80 85" 
