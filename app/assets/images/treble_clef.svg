@@ -1,6 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 	<path 
-    d="M 30 90 C 38 100, 48 100, 50 80 Q 50 80, 50 15 C 52 2, 65 2, 70 15" 
-    stroke="black" stroke-width="3" fill="none"
-  />
+	    d="
+	       M 30 90 C 38 100, 48 100, 50 80
+	       Q 50 80, 50 15
+	       Q 52 3, 65 3
+	       C 77 5, 80 25, 50 30
+	       C 20 35, 15 70, 50 73
+	       C 85 70, 70 38, 50 42
+	       Q 45 42, 40 47" 
+	    stroke="black" stroke-width="3" fill="none"
+	/>
 </svg>
